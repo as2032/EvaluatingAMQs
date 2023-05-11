@@ -5,7 +5,16 @@ Hw3
 
 ## Input
 The amqs.py script requires two text file's as input. One text file represents K, a set of k-mers of any type, separated by '\n', which will be the input set that will be used to initialize the datastructures. The second text file represents K', another set of k-mers of any type separated by '\n', which will be the query keys to query the datastructures built on K.
-An example input file can be found in ```input_files```.
+
+An input file should resemble this format:
+```
+OECVWYCDRUONLJNOINBHTDEGSGKLBGQ
+CZSVQULCFBNGPRCWANOGMESBPTVXQIY
+SITMBZWLUWLEVSALZJJIUQWFLLNLXEX
+BRQQBGUUPVNOGNCJEEJBISHAQPLJLZS
+YDIFZBNOAOAWAROOALQFIGYURJSAVGE
+XGRMMFJLMRXVUEDPDWRTVCUYGIWVACJ
+```
 
 ## Running the code
 
