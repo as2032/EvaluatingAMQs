@@ -11,17 +11,17 @@ An example input file can be found in ```input_files```.
 
 Once all requirements are installed (those in requirements.txt) running the program requires various command line arguments.
 
-Arg1 (string):
+* Arg1 (string):
 filename for key set K
-Arg2 (string):
+* Arg2 (string):
 filename for key set K'
-Arg3 (float):
+* Arg3 (float):
 error_rate (between 0 and 1) for bloom filter
-Arg4 (int):
+* Arg4 (int):
 Number of bits to store for fingerprint array, one of (7,8,9)
-Arg5 (int):
+* Arg5 (int):
 Number of true positives in query key set K'
-Arg6 (int):
+* Arg6 (int):
 Number of true negatives in query key set K'
 
 Example:
