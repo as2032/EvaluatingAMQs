@@ -1,7 +1,7 @@
-# Evaluating different AMQ's
+# Evaluating different AMQ's (Approximate Membership Query datastructures)
 
 Alexander Straub
-Hw3
+
 
 ## Input
 The amqs.py script requires two text file's as input. One text file represents K, a set of k-mers of any type, separated by '\n', which will be the input set that will be used to initialize the datastructures. The second text file represents K', another set of k-mers of any type separated by '\n', which will be the query keys to query the datastructures built on K.
